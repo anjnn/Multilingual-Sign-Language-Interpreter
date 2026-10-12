@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
     return (
-        <section className="relative min-h-[calc(100vh-80px)] bg-[#070709] text-white flex items-center overflow-hidden py-12 lg:py-0">
+        <section id="hero" className="relative min-h-[calc(100vh-80px)] bg-[#070709] text-white flex items-center overflow-hidden py-12 lg:py-0 scroll-mt-20">
             {/* Background Ambient Radial Glow */}
             <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-[radial-gradient(ellipse_at_center,_rgba(255,94,20,0.18)_0%,_rgba(255,94,20,0.03)_50%,_transparent_70%)] blur-3xl pointer-events-none z-0"></div>
 
@@ -29,14 +29,14 @@ function Hero() {
 
                         <div className="flex flex-wrap items-center gap-5 mt-10">
 
-                            <button className="bg-gradient-to-r from-[#ff5e14] to-[#f94100] hover:from-[#ff6d2b] hover:to-[#ff3b00] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-[0_0_35px_rgba(255,94,20,0.45)] hover:shadow-[0_0_50px_rgba(255,94,20,0.7)] text-base cursor-pointer">
+                            <a href="#cta" className="bg-gradient-to-r from-[#ff5e14] to-[#f94100] hover:from-[#ff6d2b] hover:to-[#ff3b00] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-[0_0_35px_rgba(255,94,20,0.45)] hover:shadow-[0_0_50px_rgba(255,94,20,0.7)] text-base cursor-pointer">
                                 Start Interpreting
                                 <FaArrowRight className="text-sm transition-transform duration-300 group-hover:translate-x-1" />
-                            </button>
+                            </a>
 
-                            <button className="border border-[#ff5e14]/40 hover:border-[#ff5e14] bg-[#111218]/80 hover:bg-[#ff5e14]/10 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 text-base cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.5)]">
+                            <a href="#about" className="border border-[#ff5e14]/40 hover:border-[#ff5e14] bg-[#111218]/80 hover:bg-[#ff5e14]/10 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 text-base cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                                 Learn More
-                            </button>
+                            </a>
 
                         </div>
 

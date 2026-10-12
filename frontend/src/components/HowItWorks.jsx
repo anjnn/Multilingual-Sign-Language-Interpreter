@@ -27,7 +27,7 @@ function HowItWorks() {
     ];
 
     return (
-        <section className="bg-[#070709] text-white py-24 relative overflow-hidden">
+        <section id="how-it-works" className="bg-[#070709] text-white py-24 relative overflow-hidden scroll-mt-20">
             <div className="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
 
                 <div className="text-center mb-16">

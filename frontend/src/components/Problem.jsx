@@ -1,6 +1,6 @@
 function Problem() {
     return (
-        <section className="bg-[#070709] text-white py-24 relative overflow-hidden">
+        <section id="about" className="bg-[#070709] text-white py-24 relative overflow-hidden scroll-mt-20">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#ff5e14]/5 blur-3xl rounded-full pointer-events-none"></div>
 
             <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">

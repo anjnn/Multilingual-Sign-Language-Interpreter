@@ -27,7 +27,7 @@ function Features() {
 
 
     return (
-        <section className="bg-[#070709] text-white py-24 relative overflow-hidden">
+        <section id="features" className="bg-[#070709] text-white py-24 relative overflow-hidden scroll-mt-20">
             <div className="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
                 <div className="text-center mb-16">
                     <span className="inline-block px-4 py-1.5 rounded-full bg-[#ff5e14]/10 border border-[#ff5e14]/25 text-[#ff5e14] font-semibold text-xs tracking-widest uppercase mb-4">

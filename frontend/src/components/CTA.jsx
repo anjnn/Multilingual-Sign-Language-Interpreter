@@ -1,6 +1,6 @@
 function CTA() {
     return (
-        <section className="bg-[#070709] py-24 relative overflow-hidden">
+        <section id="cta" className="bg-[#070709] py-24 relative overflow-hidden scroll-mt-20">
             <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
 
                 <div className="relative p-[1px] rounded-3xl bg-gradient-to-r from-[#ff5e14]/50 via-orange-500/20 to-[#ff5e14]/50 shadow-[0_0_50px_rgba(255,94,20,0.2)]">
